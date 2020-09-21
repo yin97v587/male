@@ -1,0 +1,356 @@
+#banner {
+    height: 600px;
+    background-color: #f2f2f2;
+}
+
+#banner .bandtl{
+    background-color: #ffffff;
+    border-top: 1px solid transparent;
+    height: 500px;
+}
+#banner .bandtl .magnifier{
+    margin-top: 15px;
+    margin-left: 24px;
+}
+#banner .txt{
+    font-size: 16px;
+    margin-bottom: 11px;
+}
+#banner .txt a{
+    color: #646464;
+}
+#banner .txt p{
+    margin-left: 5px;
+    padding-top: 20px;
+    
+}
+#banner .txt span>a{
+    font-size: 24px;
+}
+#banner .magnifier>p{
+    margin: 30px 0 0 80px;
+    color: #646464;
+}
+
+/* //////////banner右边/////////// */
+#banner .cnm{
+    width: 790px;
+    margin-right: 10px;
+}
+#banner .cnm p{
+    line-height: 40px;
+}
+#banner .cnm>form>p:nth-child(1){
+    font-size: 22px;
+    color: #343434;
+}
+
+#banner .cnm>form>p:nth-child(2){
+    font-size: 18px;
+	color: #fb2f2f;
+}
+
+#banner .cnm>form>p:nth-child(3){
+	font-size: 16px;
+	color: #818181;
+}
+
+#banner .cnm div{
+    width: 788px;
+	height: 140px;
+	background-color: #f5f5f5;
+}
+#banner .cnm div p{
+    font-size: 16px;
+	line-height: 35px;
+    color: #6c6c6c;
+}
+
+#banner .cnm div p:nth-child(2) span{
+    color: #fb2f2f;
+}
+#banner .cnm div p:nth-child(3)>span{
+    display: inline-block;
+    width: 94px;
+    overflow: hidden;
+    margin-bottom: -12px;
+}
+#banner .cnm div p:nth-child(3)>span>span{
+    text-align: center;
+    background-color: #ff6600;
+    color: #f6f6f6;
+    line-height: 26px;
+    width: 88px;
+    display: inline-block;
+    border-right: 7px dotted #f5f5f5;
+    border-left: 7px dotted #f5f5f5;
+    margin-left: -4px;
+}
+#banner .cnm ul{
+    margin-top: 18px;
+}
+#banner .cnm ul p{
+    font-size: 16px;
+	/* line-height: 35px; */
+    color: #4d4d4d;
+    margin: 0 8px 0 16px;
+}
+#banner .cnm ul li{
+    box-sizing: border-box;
+    float: left;
+    width: 100px;
+	height: 34px;
+    border: solid 1px #c9c9c9;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 8px;
+    position: relative;
+    cursor: pointer;
+}
+#banner .cnm ul>li>div{
+    display: none;
+    position: absolute;
+    line-height: 14px;
+    right: -1px;
+    bottom: -1px;
+    width: 16px;
+	height: 14px;
+    background-color: #ff6600;
+    color: #ffffff;
+}
+#banner .cnm ul>.ck{
+    border: solid 2px #ff6600;
+}
+#banner .cnm ul>.ck div{
+    display: block;
+}
+
+#banner .cnm>form>div>div{
+    width: 62px;
+    height: 42px;
+    margin-top: 10px;
+}
+#banner .cnm>form>div>div input{ 
+    color: #808080; 
+    width: 40px;
+    height: 40px;
+    border: solid 1px #d9d9d9;
+    text-align: center;
+}
+#banner .cnm>form>div>div button{
+    border: solid 1px #d9d9d9;
+    width: 20px;
+    height: 21px;
+    cursor: pointer;
+}
+#banner .cnm>form>div.clearfix{
+    width: 280px;
+    margin-top: 40px;
+    height: 60px;
+    background-color: transparent;
+}
+#banner .cnm>form>div.clearfix>input{
+    text-align: center ;
+    line-height: 60px;
+    font-size: 26px;
+    color: #fefefe;
+    background-color: #ff6600;
+    width: 190px;
+    margin-left: 24px;
+}
+#banner .cnm>p{
+    color: #808080; 
+    margin-top: 10px;
+}
+
+
+
+/* //////////newitem//////////// */
+#newitem{
+    background-color: pink;
+    margin-top: 3px;
+    height: 350px;
+}
+#see_one_see .look_one_look{
+    margin-left: 50px;
+}
+.look_one_look>li{
+    width: 210px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+.look_one_look>li:not(:last-child){
+    margin-right: 37px;
+}
+.look_one_look>li>img:first-child{
+    margin-top: 10px;
+    width: 150px;
+    height: 210px;
+}
+.look_one_look>li>img:nth-child(2){
+    position: absolute;
+    left: 0;
+    top: 220px;
+}
+.look_one_look>li>p{
+    text-align: left;
+    margin-left: 10px;
+}
+.look_one_look>li>p:nth-child(3){
+    margin-top: 25px;
+}
+.look_one_look>li>p>.in{
+    font-size: 24px;
+    color: #c0c0c0;
+}
+.look_one_look>.ck{
+    background-color: #f2f2f2;
+}
+/* look_one_look ///////////////////*/
+#see_one_see{
+    height: 1800px;
+}
+#see_one_see>.lbox{
+    width: 315px;
+    border-left: solid 1px #e6e6e6;
+}
+#see_one_see>.lbox>p{
+    background-color: #f4f4f4;
+    text-indent: 5px;
+    line-height: 40px;
+    font-size: 22px;
+	color: #666666;
+}
+
+#see_one_see li{
+    float: none;
+    height: 340px;
+    border-bottom: solid 1px #e6e6e6;
+}
+#see_one_see li img:first-child{
+    width: 180px;
+    height: 250px;
+}
+#see_one_see .look_one_look>li>img:nth-child(2){
+    top: 260px;
+}
+/* you111111111111111111111111111 */
+#see_one_see .rbox{
+    width: 860px;
+}
+
+
+#see_one_see .rbox h2 p{
+    width: 500px;
+}
+
+#see_one_see .rbox h2 p a{
+    width: 150px;
+}
+
+.rua{
+    width: 785px;
+    margin-left: 35px;
+    margin-top: 45px;
+}
+.rua .rual{
+    width: 105px;
+    height: 80px;
+    line-height: 65px;
+    font-size: 72px;
+    color: #f8380c;
+    margin-top: -12px;
+}
+.rua .rual p{
+    line-height: 8px;
+    font-size: 20px;
+    color: #999999;
+    text-align: right;
+}
+/* youyou */
+.rua .ruar>p{
+    font-size: 16px;
+	color: #999999;
+}
+
+.rua .ruar>p>span{
+    display: inline-block;
+    width: 150px;
+	height: 16px;
+	background-color: #e6e6e6;
+}
+.rua .ruar>p>span>span{
+    display: inline-block;
+	height: 16px;
+	background-color: #f8380c;
+}
+.rua .ruar>p>i{
+    font-size: 16px;
+    color: #666666;
+    margin-left: 65px;
+}
+
+#see_one_see>.rbox>p{
+    margin-top: 50px;
+    width: 860px;
+	height: 30px;
+    background-color: #f5f5f5;
+    line-height: 30px;
+}
+
+#see_one_see>.rbox>.xbb{
+    width: 856px;
+    height: 126px;
+    border-bottom: 2px solid #f5f5f5;
+}
+#see_one_see>.rbox>.xbb>span:first-child{
+    color: #a6a6a6;
+    margin-right: 60px;
+    width: 92px;
+    display: inline-block;
+}
+
+#see_one_see>.rbox>.xbb>span:nth-child(2){
+    display: inline-block;
+    width: 461px;
+    height: 31px;
+    color: #666666;
+    margin-right: 80px;
+}
+
+#see_one_see>.rbox>.xbb>div{
+    display: inline-block;
+    
+}
+#see_one_see>.rbox>.xbb>div img{
+    height: 28px;
+}
+#see_one_see>.rbox>.xbb>div>span{
+    line-height: 28px;
+}
+#see_one_see>.rbox>ul{
+    width: 370px;
+    margin: 50px auto;
+}
+#see_one_see>.rbox>ul>li{
+    float: left;
+    width: 32px;
+	height: 32px;
+	background-color: #fafafa;
+    border: solid 1px #e6e6e6;
+    line-height: 32px;
+    text-align: center;
+    margin-right: 7px;
+}
+#see_one_see>.rbox>ul>li:nth-last-child(2){
+    width: 64px;
+    background: none;
+    border: none;
+}
+#see_one_see>.rbox>ul>li:last-child{
+    width: 64px;
+}
+
+

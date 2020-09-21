@@ -1,0 +1,100 @@
+header .searchbox form{
+    margin-right: 0px;
+}
+#shopcartarea{
+    margin-top: 50px;
+}
+#shopcartarea>p{
+    font-size: 20px;
+	color: #666666;
+}
+#shopcartarea table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#shopcartarea table,td{
+    border: 1px solid #ccc;
+}
+
+#shopcartarea table thead tr,
+#shopcartarea table tfoot tr{
+    line-height: 60px;
+    background-color: #f2f2f2;
+}
+
+#shopcartarea table tbody img{
+    vertical-align: middle;
+}
+
+tbody td>a{
+    cursor: pointer;
+}
+tbody tr>td>a{
+    display: inline-block;
+    user-select: none;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid gray;
+}
+tbody tr>td>input{
+    width: 50px;
+    border: 1px solid gray;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+header .sel{
+    width: 220px;
+    height: 22px;
+    margin-top: 20px;
+}
+header .sel span{
+    width: 50px;
+}
+header .sel select{
+    border: solid 1px #d9d9d9;
+    width: 168px;
+    outline: none;
+}
+
+/* ///////////////////////look */
+#newitem{
+    height: 370px;
+}
+.look_one_look>li{
+    width: 210px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+.look_one_look>li:not(:last-child){
+    margin-right: 37px;
+}
+.look_one_look>li>img:first-child{
+    margin-top: 10px;
+    width: 150px;
+    height: 210px;
+}
+.look_one_look>li>img:nth-child(2){
+    position: absolute;
+    left: 0;
+    top: 220px;
+}
+.look_one_look>li>p{
+    text-align: left;
+    margin-left: 10px;
+}
+.look_one_look>li>p:nth-child(3){
+    margin-top: 25px;
+}
+.look_one_look>li>p>.in{
+    font-size: 24px;
+    color: #c0c0c0;
+}
+.look_one_look>.ck{
+    background-color: #f2f2f2;
+} 

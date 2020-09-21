@@ -1,0 +1,307 @@
+@charset 'utf-8';
+/* 特殊！xjb放的图片 */
+body>img{
+    display: block;
+    /* margin-bottom: 20px;
+    为啥不生效？不是转成块了吗 */
+}
+
+/* banner//////////////////// */
+#banner{
+    height: 600px;
+    margin-top: 0;
+}
+#banner  img{
+    width: 1000px;
+    height: 600px;
+}
+/* 特殊！轮播图里的数字样式 */
+#banner .fl .controls li{
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+}
+/* 右边 */
+#banner .fr>p{
+    width: 200px;
+    text-align: center;
+    background-color: #93d46f;
+    height: 18px;
+    color: #ffffff;
+}
+
+/* 收起状态 */
+#banner .fr li{
+    height: 42px;
+    width: 200px;
+    overflow: hidden;
+}
+#banner .fr li img{
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-top: -35px;
+}
+#banner .fr li p{
+    float: right;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: #b3b3b3;
+    color: #ffffff;
+    margin-left: 180px;
+}
+#banner .fr li:nth-child(-n+3) p{
+    background-color: #ff6600;
+}
+
+#banner .fr li span{
+    float: right;
+    width: 80px;
+    white-space:nowrap;
+    /* overflow: hidden; */
+}
+/* 展开状态 */
+#banner .fr .ck{
+    height: 140px;
+}
+#banner .fr .ck img{
+    margin-top: 0;
+}
+#banner .fr .ck span{
+    white-space:normal;
+}
+/* /////////////职阶介绍//////////////// */
+#introduce{
+    margin-top: 40px;
+}
+#introduce .btl,#zero .btl{
+    color: transparent;
+}
+#introduce .btl p,#zero .btl p{
+    float: none;
+}
+#introduce .btl a,#zero .btl a{
+    width: 220px;
+    font-size: 24px;
+    height: 46px;
+    line-height: 46px;
+    /* float: left; */
+}
+/* 内容 */
+#introduce ul li{
+    width: 210px;
+    height: 258px;
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 4px;
+    position: relative;
+}
+#introduce ul li img:first-child{
+    height: 150px;
+}
+#introduce ul li img:nth-child(2){
+    position: absolute;
+    left: 0;
+    top: 150px;
+}
+#introduce ul .ck{
+    background-color: #f2f2f2;
+}
+
+/* ////////第四次啊啊啊啊啊///////// */
+#zero .leftbox{
+    width: 900px;
+}
+
+#zero .leftbox a{
+    width: 75px;
+}
+#zero .leftbox .ebookck{
+    width: 42px;
+    margin-right: -10px;
+}
+
+#zero .leftbox ul li{
+    width: 170px;
+    height: 220px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 4px;
+    position: relative;
+}
+#zero .leftbox ul li img:first-child{
+    height: 150px;
+}
+#zero .leftbox ul li img:nth-child(2){
+    position: absolute;
+    left: 0;
+    top: 150px;
+}
+#zero .rightbox{
+    border: 2px solid #e6e6e6;
+    box-sizing: border-box;
+     width: 280px;
+     margin-left: 20px;
+
+}
+#zero .rightbox h1{
+	font-size: 24px;
+	color: #808080;
+}
+#zero .rightbox ul{
+    
+    margin-left: 15px;
+}
+#zero .rightbox ul li{
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid #e6e6e6;
+}
+#zero .rightbox ul li:last-child{
+    border: none;
+}
+#zero .rightbox .bookname{
+	font-size: 16px;
+	color: #4d4d4d;
+}
+#zero .rightbox li .jieshao{
+    line-height: 16px;
+    width: 126px;
+    position: absolute;
+    right: 10px;
+}
+
+/* ///////stn/////// */
+#stn .btl {
+    text-align: left;
+	font-size: 22px;
+    color: #333333;
+    line-height: 44px;
+}
+#stn .btl>span{
+    float: right;
+    height: 20px;
+    margin-top: 5px;
+}
+#stn .btl>span>span{
+    margin-right: 20px;
+    text-align: center;
+    width: 90px;
+    font-size: 18px;
+    height: 34px;
+    line-height: 34px;
+    display: inline-block;
+}
+#stn .btl>span>.ck{
+    background-color: #ff6600;
+    color: #ffffff;
+}
+#stn .btl  p{
+    float: left;
+    /* 这里看起来没问题啊 */
+    display: inline;
+}
+#stn .btl  p:first-child{
+    width: 42px;
+	height: 44px;
+    background-color: #ff6600;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    margin: 0;
+}
+
+#stn .btl  ul{
+    width: 1000px;
+    font-size: 18px;
+}
+#stn .btl  ul li{
+    float: left;
+    /* display: inline-block; */
+}
+/* lunbo///// */
+#stn .pptbox>ul>li>a>ul{
+    width: 1100px;
+    margin: 0 auto;
+}
+#stn .pptbox>ul>li>a>ul>li{
+    width: 170px;
+    height: 220px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#stn .pptbox>ul>li>a>ul>li img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+/* maylike猜你喜欢 */
+#maylike{
+    position: relative;
+    height: 530px;
+    border-bottom: solid 2px #e6e6e6;
+}
+#maylike h2 a{
+    width: 60px;
+}
+#maylike h2 .ebookck{
+    font-size: 28px;
+    line-height: 42px;
+    height: 42px;
+    width: 44px;
+    margin-right: -15px;
+    /* margin: 0; */
+}
+#maylike>ul{
+    margin-left:30px;
+}
+#maylike>ul>li{
+    float: left;
+    margin-right: 25px;
+}
+#maylike>ul>li img{
+    width: 170px;
+    height: 220px;
+}
+.huan{
+    font-size: 24px;
+    color: #468bfd;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+}
+/* ///////////////////////// */
+.product_6 .product_6p{
+    font-size: 12px;
+    float: left;
+}
+.product_6 .product_6p p{
+    margin-bottom: 5px;
+}
+.product_6 li{
+    float: left;
+    width: 200px;
+    height: 100px;
+    padding-top: 15px;
+    
+}
+.product_6 .product_6p p:first-child{
+    font-size: 15px;
+}
+.product_6 .product_6p p:nth-child(2){
+    color: #b2b2b2;
+}
+.product_6 .product_6p p:nth-child(3){
+    border-radius: 10px;
+    width: 60px;
+    color: #fff;
+    text-align: center;
+    background-color: #ff3329;
+}
+.product_6 img{
+    float: right;
+    margin-right: 15px;
+}

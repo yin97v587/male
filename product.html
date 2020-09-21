@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>产品列表</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/product.css">
+    <link rel="stylesheet" href="./css/slider.css">
+
+    <script src="./lib/jquery.min.js"></script>
+
+    <style>
+
+
+    </style>
+
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="top ">
+            <div class="container clearfix">
+                <img src="./imgs/img/logo.jpg" alt="" class="logo">
+                <div class="txturl fl">
+                    legochina.cn
+                </div>
+                <div class="hi fr">
+                    欢迎光临<a href="">乐购</a>，请<a href="">登录</a>/<a href="">注册</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 搜索框 -->
+        <div class="searchbox container clearfix">
+            <div class="car fr">
+                <a href=""><span>购物车</span><i>3</i></a>
+                <a href="">我的订单</a>
+            </div>
+
+            <form action="#" class="fr">
+                <input type="text" placeholder="创意文具" class="fl">
+                <input type="submit" value="" class="fl">
+            </form>
+        </div>
+
+        <ul class="lv1 container clearfix">
+            <li><a href="">图书1</a></li>
+            <li><a href="">图书</a></li>
+            <li><a href="">图书</a></li>
+            <li><a href="">图书</a></li>
+            <li><a href="">图书</a></li>
+            <li><a href="">图书</a></li>
+            <li><a href="">图书</a></li>
+            <li><a href="">图书</a></li>
+            <li><a href="">图书</a></li>
+            <li><a href="">图书</a></li>
+            <li><a href="">图书</a></li>
+            <li><a href="">图书</a></li>
+        </ul>
+    </header>
+
+    <!-- banner -->
+    <div id="banner" class="container clearfix ">
+        <!-- lunbo -->
+        <div class="pptbox fl">
+            <ul class="innerwrapper">
+                <li>
+                    <a href="#">
+                        <img src="./imgs/2.webp" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./imgs/3.webp" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./imgs/4.webp" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./imgs/5.webp" />
+                    </a>
+                </li>
+            </ul>
+            <ul class="controls">
+                <li class="current">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+            <span class="btnleft"></span>
+            <span class="btnright"></span>
+        </div>
+        <div class=" fr">
+            <p>职阶介绍</p>
+            <ul>
+                <li class="ck"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+    <img src="./imgs/1.jpg" class="container ">
+
+    <!-- 乐购图书折扣区/职阶介绍 -->
+    <div id="introduce" class="container ">
+        <h2 class="btl clearfix">
+            <p class="fr"><a href="#" class="ebookck">职阶介绍</a></p>
+        </h2>
+        <!-- 聖杯戦争  -->
+        <ul class="clearfix">
+
+            <li class="ck"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <!-- 
+
+                星星的处理思路：
+                1.抠出镂空的单个星星图，中间颜色为透明，其余为背景色，作为背景，横向无限循环
+                2.在一这个图片为背景的块后面
+             -->
+        </ul>
+    </div>
+
+    <!-- 新书上架/第四次圣杯战争  -->
+    <div id="zero" class="container clearfix ">
+        <div class="leftbox fl ">
+            <h2 class="btl clearfix">
+                <p class="fr"><a href="#" class="ebookck">新</a> <a href="#">书推荐</a></p>
+            </h2>
+            <ul class="clearfix">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="rightbox fr ">
+            <h1>主编推荐</h1>
+            <ul>
+                <li>
+                    <span>1</span>
+                    <span class="jieshao">从你的世界路过第1次入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</span>
+                    <span class="bookname">就喜欢你看不惯我 又干不</span>
+                </li>
+                <script>
+
+                    for (let i = 0; i < 6; i++) {
+                        $('#zero>.rightbox>ul').append(`
+                    <li>
+                        <span>${i + 2}</span>
+                        <span class="jieshao unn">从你的世界路过第${i + 2}次入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</span>
+                        <span class="bookname">就喜欢你看不惯我 又干不</span>
+                    </li>
+                                `)
+                    }
+
+                </script>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 独家提供/第五次圣杯战争 -->
+    <div id="stn" class="container ">
+        <h2 class="btl clearfix">
+            <p>独</p>
+            <p>家提供</p>
+            <span>
+                <span class="ck">泳装呆毛</span>
+                <span>花嫁尼禄</span>
+                <span>沖田総司</span>
+                <span>圣诞呆毛</span>
+            </span>
+        </h2>
+        <!-- lunbo -->
+        <div class="pptbox">
+            <ul class="innerwrapper">
+                <li>
+                    <a href="#">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </a>
+                </li>
+            </ul>
+            <ul class="controls">
+                <li class="current">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+            <span class="btnleft"></span>
+            <span class="btnright"></span>
+        </div>
+    </div>
+
+    <!-- 猜你喜欢/来发十连 -->
+    <div id="maylike" class=" container">
+        <h2 class="btl clearfix">
+            <p><a href="#" class="ebookck">猜</a> <a href="#">你喜欢</a></p>
+        </h2>
+        <div class="huan">换一批</div>
+        <ul class="clearfix">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+    </div>
+
+    <!-- 下方的6个广告 -->
+    <div class="product_6 container">
+        <ul class="clearfix">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <img src="./imgs/1.jpg" class="container ">
+    <!--页脚  -->
+    <footer>
+        <!-- 一飞冲天 -->
+        <div class="gtt">
+            <img src="./imgs/img/gototop_05.jpg" alt="">
+        </div>
+        <h2 class="btl"></h2>
+        <div class="footer_top">
+            <img src="./imgs/img/222_11.png" alt="">
+            <img src="./imgs/img/222_11.png" alt="">
+            <img src="./imgs/img/222_11.png" alt="">
+            <img src="./imgs/img/222_11.png" alt="">
+        </div>
+        <div class="footer_link clearfix">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul>
+                <img src="./imgs/img/logo_00.png" alt="">
+            </ul>
+        </div>
+
+        <div class="footer_bt">
+            <p>公司简介 | Investor Relations | 网站联盟 | 乐购招商 | 机构销售 | 手机乐购 | 官方Blog | 热词搜索</p>
+            <p>Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+        </div>
+
+    </footer>
+    <div style="height: 200px;background-color:skyblue;"></div>
+    <script src="./lib/jquery.slidebox.js"></script>
+    <script src="./js/product.js"></script>
+</body>
+
+</html>

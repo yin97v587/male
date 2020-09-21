@@ -1,0 +1,36 @@
+header .searchbox form{
+    margin-right: 0;
+}
+#banner{
+    width: 1920px;
+	height: 500px;
+    background-color: #e93854;
+    position: relative;
+}
+#banner .loginbox{
+    width: 350px;
+    height: 370px;
+    background-color: #ffffff;
+    position: absolute;
+    right: 465px;
+    top: 65px;
+}
+#banner .loginbox ul{
+    width: 350px;
+    height: 55px;
+    border-bottom: 1px solid #f6f6f6;
+}
+#banner .loginbox li{
+    margin-top: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 49%;
+    height: 19px;
+    text-align: center;
+    font-size: 22px;
+	color: #666666;
+}
+
+#banner .loginbox li:first-child{
+    border-right: 2px solid #f6f6f6;
+}
