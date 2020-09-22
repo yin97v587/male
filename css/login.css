@@ -30,7 +30,41 @@ header .searchbox form{
     font-size: 22px;
 	color: #666666;
 }
-
+#banner .loginbox li.ck{
+    color: #ff6600;
+}
 #banner .loginbox li:first-child{
     border-right: 2px solid #f6f6f6;
+}
+
+#banner .loginbox .ma{
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 65px;
+}
+#banner .loginbox .ji{
+    width: 140px;
+    margin-top: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+#banner .loginbox p{
+    font-size: 14px;
+    color: #666666;
+    margin-left: 85px;
+    margin-top: 30px;
+}
+/* ///////////// */
+
+.box2 input{
+    height: 30px;
+    width: 280px;
+    line-height: 20px;
+    border: 2px solid gray;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+#banner .box2 p{
+    margin-left: 40px;
 }
