@@ -1,0 +1,110 @@
+header{
+    background-color: #fff;
+    box-shadow: 1px -1px 5px #888888;
+}
+.ori{
+    color: #ff6600;
+}
+
+header .lg-container .txt{
+    width: 900px;
+    height: 70px;
+    margin-left: 200px;
+}
+header .lg-container .txt span.fl{
+    font-size: 30px;
+    color: #666666;
+    line-height: 70px;
+    text-indent: 10px;
+}
+header .lg-container .txt span.fr{
+	font-size: 24px;
+    color: #a6a6a6;
+    margin-top: 40px;
+
+}
+header .lg-container .txt span.fr a{
+    color: #666666;
+}
+/* //////////////////// */
+#banner{
+    margin-top: 2px;
+    background-color: #fff;
+    border-top: 1px solid transparent;
+    height: 670px;
+}
+#banner .box{
+    width: 410px;
+    height: 600px;
+    /* border: 1px solid red; */
+    margin: 30px auto;
+}
+
+#banner .box .cin{
+    width: 400px;
+    height: 44px;
+    margin-bottom: 45px;
+    border: solid 1px #d9d9d9;
+}
+#banner .box .cin:nth-child(6){
+    margin-bottom: 10px;
+}
+#banner .box .cin>label{
+    display: inline-block;
+    width: 100px;
+    text-indent: 15px;
+}
+#banner .box .cin>input{
+    height: 44px;
+    width: 290px; 
+}
+#banner .box .cin>input#maqima,#banner .box .cin>input#telmaqima{
+    width: 160px;
+}
+#banner .box .cin>span{
+    width: 120px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background-color: #1a83e5;
+    user-select: none;
+}
+#banner .box .cin:nth-child(6) span{
+    background-color: #e6e6e6;
+}
+#banner .box .cin:nth-child(5) span{
+    font-size: 25px;
+    line-height: 30px;
+}
+
+
+
+#banner .box form>input:last-child{
+    margin-top: 20px;
+    width: 400px;
+    background-color: gray;
+    font-size: 28px;
+    line-height: 44px;
+	color: #ffffff;
+}
+.bgorn{
+    background-color: #ff6600!important;
+}
+
+
+
+footer{
+    border-top: 2px solid #e6e6e6;
+}
+
+
+
+
+
+
+
+
+
+
+

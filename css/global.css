@@ -71,7 +71,7 @@ a{
 /* 头 */
 header{
     height: 112px;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 header .top{
@@ -85,7 +85,7 @@ header .top{
 /* banner//////////////////////////// */
 #banner{
     height: 430px;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
 }
 /* ///////////////daadadaadad////////// */
 /* 标题 */
